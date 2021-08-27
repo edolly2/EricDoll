@@ -1,0 +1,10 @@
+.pp-main {
+
+}
+
+.pp-title-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}

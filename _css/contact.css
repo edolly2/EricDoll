@@ -1,0 +1,42 @@
+.cp-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-title-cont {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: 4rem;
+}
+
+.cp-content-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--margin-xxlarge);
+    padding: var(--padding-large);
+}
+
+.cp-contact-info-cont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--margin-xxlarge);
+}
+
+.cp-email-title, .cp-phone-title, .cp-form-title, .cp-contact-info-title {
+    border-bottom: 2px solid var(--accent-dark-800);
+    color: var(--accent-red);
+}
+
+.cp-phone-title {
+
+
+}
+
+.cp-message-form-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+

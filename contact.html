@@ -20,16 +20,17 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/cirrus-ui@0.6.0/dist/cirrus.min.css">
     <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/contact.css">
     <script src="_js/jquery.min.js" defer></script>
     <script src="_js/main.js" defer></script>
 </head>
 <style>
-    .home {
+    .contact {
         border-bottom: 1px solid var(--accent-dark-800) !important;
         transform: scale(1.2, 1.2);
     }
 
-    .home-link {
+    .contact-link {
         color: var(--accent-red);
     }
 </style>
@@ -46,16 +47,23 @@
                 <div class="hamburger-icon"></div>
             </div>
         </header>
-        <main>
+        <main class="cp-main">
+            <div class="cp-title-cont">
+                <h1 class="cp-title">Get in touch</h1>
+            </div>
             <nav class="top-navigation">
                 <div class="filler"></div>
                 <ul class="nav-list">
-                    <li class="list-item home"><a href="/" class="list-link home-link">Home</a>
+                    <li class="list-item home"><a href="/"
+                            class="list-link home-link">Home</a>
                     </li>
-                    <li class="list-item about"><a href="./about.html" class="list-link about-link">Bio</a>
+                    <li class="list-item about"><a href="./about.html"
+                            class="list-link about-link">Bio</a>
                     </li>
-                    <li class="list-item portfolio"><a href="./portfolio.html" class="list-link portfolio-link">Portfolio</a></li>
-                    <li class="list-item"><a href="./blog.html" class="list-link blog">Blog</a>
+                    <li class="list-item portfolio"><a href="./portfolio.html"
+                            class="list-link portfolio-link">Portfolio</a></li>
+                    <li class="list-item"><a href="./blog.html"
+                            class="list-link blog">Blog</a>
                     </li>
                     <li class="list-item contact"><a href="./contact.html"
                             class="list-link contact-link">Contact</a></li>
@@ -73,50 +81,60 @@
                 </div> -->
             </aside>
 
-            <!-- <h1>Dollyllama</h1> -->
+            <section class="cp-content-section">
+                <h2 class="cp-contact-info-title">Contact Info</h2>
+                <div class="cp-contact-info-cont">
+                        <p><h3>Name</h3>Eric Dollinger</p>
+                        <p><h3>Phone</h3>(402)999-9999</p>
+                        <p><h3>Email</h3>eric.dollyllama@gmail.com</p>
+                        <p><h3>Location</h3>999 Vito Road <br/> Omaha, Nebraska 68005</p>
 
-            <!-- CARD -->
-            <div class="card">
-                <div class="card__container">
-                    <div class="card__image">
-                        <div class="avatar-cont">
-                            <div class="avatar-img-cont">
-                                <figure class="avatar avatar--xlarge">
-                                    <img src="_assets/_images/meredblue.png"
-                                        alt="avatar" class="avatar-img">
-                                </figure>
-                            </div>
+                    <!-- <div class="cp-email-cont">
+                        <h2 class="cp-email-title">Email</h2>
+                        <a href="mailto:someone@yoursite.com" class="cp-my-email-link">Eric.dollyllama@gmail.com</a>  
+                    </div>
+                    <div class="cp-phone-cont">
+                        <h2 class="cp-phone-title">Phone</h2>
+                        <a href="tel:+14027085866" class="cp-my-email-link">(402)708-5866</a> 
+                    </div> -->
+                </div>
+
+                <h2 class="cp-form-title">Message Me</h2>le
+                <div class="cp-message-form-cont">
+                    <form action="#" class="cp-message-form">
+                        <div class="input-control">
+                            <h3>Name</h3>
+                            <input type="text" class="input-large input-name" placeholder="Name" />
                         </div>
-                    </div>
+                        <div class="input-control">
+                            <h3>Phone</h3>
+                            <input type="tel" class="input-large input-phone" placeholder="Phone" />
+                        </div>
+                        <div class="input-control">
+                            <h3>email</h3>
+                            <input type="email" class="input-large input-email" placeholder="Email" />
+                        </div>
+                        <h3>Message</h3>
+                        <textarea>
+
+                        </textarea>
+                        <input type="submit" class="btn-primary pull-right" />
+                    </form>
                 </div>
-                <div class="content card-content-cont">
-                    <div class="card__title-container card-title-cont">
-                        <h1 class="title card-title">Eric Dollinger</h1>
-                        <span class="subtitle">
-                            <p>
-                                <i class="fas fa-star"></i>
-                                Front-end Developer
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <div class="divider"></div>
-                        </span>
-                    </div>
-                    <p class="card-para cp-1">My name is Eric Dollinger and I am a Front-end Developer. Feel free to look around and explore my <a href="./about.html" class="card-link">bio</a>.</p><div class="divider"></div><p class="card-para cp-2">Also, have a look at some of my <a href="" class="card-link">projects</a> and my <a href="" class="card-link">blog</a> that are currently in the works.</p><div class="divider"></div><p class="card-para cp-3">If you have any questions, feel free to visit my <a href="" class="card-link">contact</a> page! I would love to hear from you. I appreciate your interest and any feedback you may have...</p>
-                </div>
-                <div class="card__action-bar u-center">
-                    <button class="btn btn-xlarge card-btn">Explore</button>
-                </div>
-            </div>
+            </section>
+
         </main>
 
         <!-- FOOTER -->
         <footer class="footer">
-            <img src="./_assets/_images/lama1-white.svg" alt="" class="footer-logo">
-            <h6 class="footer__title white uppercase footer-title">Dollyllama</h6>
+            <img src="./_assets/_images/lama1-white.svg" alt=""
+                class="footer-logo">
+            <h6 class="footer__title white uppercase footer-title">Dollyllama
+            </h6>
             <p class="footer-para">"I appreciate your interest!"</p>
             <div class="content">
                 <div class="divider"></div>
-        
+
                 <div class="row">
                     <div class="col-4">
                         <ul class="no-bullets">

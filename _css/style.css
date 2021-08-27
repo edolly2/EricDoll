@@ -529,6 +529,7 @@ main {
   width: 100%;
   border-bottom-left-radius: var(--border-radius-6);
   border-bottom-right-radius: var(--border-radius-6);
+  border-bottom: 2px solid var(--accent-red);
   /* min-height: 50vh; */
   /* max-height: 55vh; */
   display: none;
